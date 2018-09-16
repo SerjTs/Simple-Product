@@ -5,6 +5,28 @@
 
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     height: 100%;
+}
+
+body {
+    max-width: 1280px;
+    min-height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+top {
+    flex-grow: 1;
+}
+
+header {
+    min-height: 323px;
+    background-color: #445162;
+}
+
+footer {
+    background-color: #445162;
+    min-height: 509px;
 }
