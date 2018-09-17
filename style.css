@@ -49,8 +49,10 @@ header {
 }
 
 .about {
-    min-height: 220px;
+    min-height: 245px;
     padding: 50px;
+    position: relative;
+/*    display: flex;*/
 }
 
 .about h2 {
@@ -68,6 +70,7 @@ header {
     width: 649px;
     margin-bottom: 12px;
     letter-spacing: -0.2px;
+/*    justify-content: flex-start;*/
 }
 
 header figure {
@@ -77,6 +80,14 @@ header figure {
     height: 214px;
 }
 
+video {
+    background-color: #445161;
+    width: 430px;
+    height: 245px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
 footer {
     background-color: #445162;
     min-height: 509px;
