@@ -22,11 +22,16 @@ top {
 }
 
 header {
-    min-height: 223px;
+/*    min-height: 223px;*/
     background-color: #445162;
-    padding: 50px;
+    padding: 25px 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.product-name {
+    margin-bottom: 10px;
 }
 
 .product-name h1 {
@@ -46,6 +51,14 @@ header {
 .product-name li {
     list-style-image: url(img/check_icon.png);
     list-style-position: inside;
+}
+
+header figure {
+    display: block;
+    background-color: #ffffff;
+    width: 469px;
+    height: 214px;
+    margin: 25px 0;
 }
 
 .about {
@@ -71,13 +84,6 @@ header {
     margin-bottom: 12px;
     letter-spacing: -0.2px;
 /*    justify-content: flex-start;*/
-}
-
-header figure {
-    display: block;
-    background-color: #ffffff;
-    width: 469px;
-    height: 214px;
 }
 
 video {
