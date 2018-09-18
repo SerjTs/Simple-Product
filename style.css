@@ -34,20 +34,16 @@ header {
 }
 
 .product-name h1 {
-    font-family: Arial;
     color: #ffffff;
     font-size: 60px;
     font-weight: 400;
 }
 .product-name ul {
     padding-top: 25px;
-    font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
-}
-.product-name li {
     list-style-image: url(img/check_icon.png);
     list-style-position: inside;
 }
@@ -60,21 +56,25 @@ header figure {
     margin: 25px 0;
 }
 
+h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
 .about {
     min-height: 245px;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .about h2 {
-    color: #445161;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 36px;
-    padding-bottom: 25px;
+    text-align: left;
 }
 .about div {
     color: #333333;
@@ -97,6 +97,33 @@ video {
     top: 50px;
     right: 50px;
 }
+
+.pluses {
+    background-color: #f5f5f5;
+    padding: 40px;
+    
+}
+
+.pluses ul {
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-position: outside;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.pluses li {
+    max-width: 526px;
+    list-style: none;
+    background: url(img/plus_icon.png) no-repeat 0 5px;
+    padding-left: 40px;
+    margin: 10px 10px;
+    letter-spacing: -0.2px;
+}
+
 footer {
     background-color: #445162;
     min-height: 509px;
