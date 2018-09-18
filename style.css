@@ -228,6 +228,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .buy-price {
@@ -272,12 +273,18 @@ video {
 .buy li {
 }
 
-.buy input {
+.buy button {
+    color:  #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
     border-radius: 5px;
     background-color: #ffffff;
     width: 260px;
     height: 40px;
     align-self: center;
+    outline: none;
+    margin-left: 4px;
 }
 
 footer {
