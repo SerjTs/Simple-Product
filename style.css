@@ -352,7 +352,6 @@ footer form {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-/*    justify-content:flex-start;*/
     align-self:flex-start;
 }
 
@@ -378,6 +377,32 @@ footer form {
     background-repeat: no-repeat;
     padding-left: 30px;
 }
+
+.icons {
+    width: 240px;
+    height: 42px;
+    display: flex;
+    align-self:flex-end;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    line-height: 42px;
+    color: #445162;
+    background-color: #fff;
+    border-radius: 50%;
+/*    letter-spacing: 30px;*/
+    
+/*    font-size: 60px;*/
+/*font-weight: 400;*/
+/*line-height: 24px;*/
+
+}
+
 .footer-copiright {
     background-color: #f5f5f5;
     color: #445162;
