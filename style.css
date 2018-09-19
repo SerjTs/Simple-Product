@@ -295,11 +295,17 @@ footer h2 {
     color: #fff;
     padding: 50px;
 }
+.footer-container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0 50px 50px;
+}
 
 footer input {
     border-radius: 5px;
     background-color: #ffffff;
-    width: 500px;
+    width: 480px;
     height: 40px;
     color: #445162;
     font-size: 16px;
@@ -308,6 +314,70 @@ footer input {
     padding: 0 10px;
 }
 
+
+footer textarea {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 480px;
+    padding: 10px;
+    font-family: Arial;
+    height: 150px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;    
+}
+
+.submit {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-left: 46px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+/*    justify-content:flex-start;*/
+    align-self:flex-start;
+}
+
+.skype {
+    background-image: url(img/skype_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.icq {
+    background-image: url(img/icq_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.email {
+    background-image: url(img/email_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+.phone {
+    background-image: url(img/phone_icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
 .footer-copiright {
     background-color: #f5f5f5;
     color: #445162;
