@@ -316,6 +316,7 @@ footer input {
     font-weight: 380;
     line-height: 24px;
     padding: 0 10px;
+    margin-bottom: 21px;
 }
 
 
@@ -330,6 +331,7 @@ footer textarea {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 20px;
 }
 
 footer form {
@@ -358,6 +360,9 @@ footer form {
     line-height: 24px;
     align-self: flex-start;
 }
+.contacts p {
+    margin-bottom: 21px;
+}
 
 .skype {
     background-image: url(img/skype_icon.png);
@@ -384,6 +389,7 @@ footer form {
 }
 
 .icons {
+    margin-top: 30px;
     width: 240px;
     height: 42px;
     display: flex;
