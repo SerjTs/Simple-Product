@@ -191,7 +191,7 @@ video {
     display: flex;
 }
 
-.reviews .circle {
+.circle {
     border-radius: 50%;
     background-color: #445161;
     min-width: 75px;
@@ -199,12 +199,22 @@ video {
     margin-right: 15px;
 }
 
-.reviews .reviews-text {
+.reviews-text {
     max-width: 483px;
     margin-left: 10px;
     background-color: #ececec;
     padding: 10px 15px;
     margin-bottom: 25px;
+    position: relative;
+}
+
+.reviews-text:after {
+    content: ''; 
+    position: absolute;
+    left: -35px;
+    top: 18px;
+    border: 20px solid transparent;
+    border-right: 20px solid #ececec;
 }
 
 .reviews p {
