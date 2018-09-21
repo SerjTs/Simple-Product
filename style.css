@@ -107,9 +107,9 @@ video {
 .pluses {
     background-color: #f5f5f5;
     padding: 40px;
-
 }
 
+/*
 .pluses ul {
     color: #333333;
     font-size: 16px;
@@ -128,6 +128,56 @@ video {
     padding-left: 40px;
     margin: 10px 10px;
     letter-spacing: -0.2px;
+    
+}
+*/
+.pluses-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pluses details {
+    max-width: 526px;
+    padding-left: 50px;
+    position: relative;
+    letter-spacing: -0.2px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pluses summary {
+    max-width: 526px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100%;
+    outline: none;
+ }
+
+.pluses summary::-webkit-details-marker {
+    display: none
+}
+
+.pluses summary:after {
+    background: #445161;
+    content: "+";
+    color: #fff;
+    float: left;
+    margin: -5px 10px 0 0;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-family: Arial;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.pluses details[open] summary:after {
+    content: "-";
 }
 
 .screenshots {
