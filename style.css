@@ -348,6 +348,14 @@ video {
     margin-left: 4px;
 }
 
+.buy button:hover {
+    background-color: #f5f5f5;
+}
+
+.buy button:active {
+    background-color: #ececec;
+}
+
 footer {
     background-color: #445162;
 }
@@ -390,6 +398,7 @@ footer textarea {
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 20px;
+    resize: none;
 }
 
 footer form {
@@ -410,6 +419,13 @@ footer form {
     text-transform: uppercase;
 }
 
+.submit:hover {
+    background-color: #f5f5f5;
+}
+
+.submit:active {
+    background-color: #ececec;
+}
 .contacts {
     margin-left: 46px;
     color: #ffffff;
