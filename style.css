@@ -354,6 +354,7 @@ video {
 
 .buy button:active {
     background-color: #ececec;
+    padding-top: 1px;
 }
 
 footer {
@@ -425,6 +426,7 @@ footer form {
 
 .submit:active {
     background-color: #ececec;
+    padding-top: 1px;
 }
 .contacts {
     margin-left: 46px;
