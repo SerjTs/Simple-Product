@@ -180,8 +180,6 @@ video {
     padding-bottom: 25px;
 }
 
-.reviews h2 {}
-
 .reviews .reviews-container {
     display: flex;
     flex-wrap: wrap;
@@ -303,7 +301,7 @@ footer h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 50px 50px;
+    margin: 0 50px 30px;
 }
 
 footer input {
@@ -417,4 +415,5 @@ footer form {
     letter-spacing: 0.3px;
     line-height: 24px;
     text-align: center;
+    background-color: #f5f5f5;
 }
