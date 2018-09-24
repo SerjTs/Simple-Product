@@ -289,6 +289,10 @@ video {
     margin-bottom: 0;
 }
 
+.buy {
+    margin-bottom: -30px;    
+}
+
 .buy-container {
     display: flex;
     flex-wrap: wrap;
@@ -301,6 +305,7 @@ video {
     background-color: #425062;
     margin: 0 23px;
     border: 2px solid #425062;
+    margin-bottom: 30px;
 }
 
 .buy-price-class {
@@ -374,9 +379,10 @@ footer h2 {
 
 .footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0 50px 30px;
+    margin: 0 50px 15px;
 }
 
 footer input {
@@ -391,7 +397,6 @@ footer input {
     padding: 0 10px;
     margin-bottom: 21px;
 }
-
 
 footer textarea {
     border-radius: 5px;
@@ -424,6 +429,7 @@ footer form {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .submit:hover {
@@ -476,6 +482,7 @@ footer form {
     height: 42px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .icon {
