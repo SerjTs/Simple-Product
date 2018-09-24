@@ -491,6 +491,14 @@ footer form {
     font-size: 23px;
 }
 
+.icon:hover {
+    background: rgba(255,255,255,.8);
+}
+
+.icon:active {
+    background: rgba(255,255,255,.4);
+}
+
 .footer-copiright {
     background-color: #f5f5f5;
     color: #445162;
