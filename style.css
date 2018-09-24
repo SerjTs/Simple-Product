@@ -17,9 +17,11 @@ body {
     flex-direction: column;
 }
 
+/*
 .top {
     flex-grow: 1;
 }
+*/
 
 header {
     background-color: #445162;
